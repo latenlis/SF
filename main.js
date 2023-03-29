@@ -12,7 +12,7 @@ menu_links.forEach((link) => link.addEventListener('click', event => {
 const hero_dots = document.querySelectorAll('.hero__dot');
 const hero_img = document.querySelector('.hero__image');
 const hero_title = document.querySelector('.hero__title');
-const hero_subbtitle = document.querySelectorAll('.hero__subbtitle');
+const hero_subbtitle = document.querySelector('.hero__subbtitle');
 const titles = [
     'Разработано 2000+ приложений',
     'Бесплатные приложения',
@@ -22,7 +22,7 @@ const subbtitle = [
     'Для вашего удобства мы разработали множество для вашего бизнеса и команды, которые доступны любое время суток',
     'К любому сервисному обслуживанию мы подключим советы по управлению компанией совершенно бесплатно',
     'Накопленный нами опыт позволяет предлагать клиентам обширный спектр качественных приложений и сервисов'
-];
+]; 
 hero_dots.forEach((dot, index) =>
     dot.addEventListener('click',() => {
         hero_dots.forEach(el => {
